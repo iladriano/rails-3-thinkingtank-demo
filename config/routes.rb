@@ -1,7 +1,7 @@
 Rails3TtDemo::Application.routes.draw do
   resources :posts do
     resources :comments
-  ned
+  end
 
   get "home/index"
 
